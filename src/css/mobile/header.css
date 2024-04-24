@@ -19,6 +19,7 @@
 
   .burger-menu {
     cursor: pointer;
+    margin-top: 15px;
   }
 
   .bar {
@@ -29,10 +30,18 @@
     background-color: #1FA181;
     transition: 0.2s;
   }
+
+  .rotated {
+    position: relative;
+    top:7px;
+    transform: rotate(45deg);
+  }
   
-  /* .desktop-menu-list {
-    display: none;
-  } */
+  .rotated2 {
+    position: relative;
+    top:7px;
+    transform: rotate(-45deg);
+  }
 
   .hidden {
     display: none;
@@ -40,14 +49,15 @@
 
   .menu-list {
     position: relative;
-    margin-top: 27px;
+    margin-top: 35px;
     height: 100vh;
     width: 100vw;
     background-color: #1fa180ce;
+    transition: left .3s linear;
   }
-  
+
   .menu-list-item {
-    padding-top: 20px;
+    padding-top: 17px;
     padding-left: 20px;
     color: #fff;
     cursor: pointer;
@@ -62,6 +72,8 @@
     border-radius: 30px;
     background-color: #fff;
     color: #1FA181;
+    font-size: 14px;
+    font-weight: 700;
   }
   
   .menu_phone-number {

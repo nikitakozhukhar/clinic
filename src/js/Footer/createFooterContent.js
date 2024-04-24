@@ -66,6 +66,7 @@ export function createFooterContent() {
   navContainer.appendChild(footerNav)
 
   footerNav.appendChild(footerMenuList);
+  
   socials.appendChild(socialsList);
   footerContainer.appendChild(socials)
 
