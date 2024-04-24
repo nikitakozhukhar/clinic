@@ -1,0 +1,83 @@
+@media (min-width: 641px) {
+  .header {
+    display: flex;
+    align-items: center;     /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    flex-direction: column;
+  }
+  
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .desktop-location {
+    position: relative;
+    flex: 0 0 calc(50% - 60px); 
+    margin: 0 5px;
+  }
+
+  .desktop-city:before {
+    content: url('https://i.postimg.cc/wvNcnLVV/location.png');
+    position: absolute;
+    left: -15px;
+
+  }
+
+  .desktop-phone {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .WA {
+    position: absolute;
+    content: url('https://i.postimg.cc/3xbXRnf1/WA.png');
+  }
+
+  .header-btn-subscribe {
+    width: 196px;
+    padding: 10px 15px;
+    border: 1px solid #0DBC91;
+    border-radius: 20px;
+    background-color: #0DBC91;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .header-btn-subscribe:hover {
+    background-color: #00D29F;
+  }
+  
+  .header_nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #00D29F;
+  }
+
+  .desktop-menu-list {
+    display: flex;
+    color: #fff;
+  }
+
+  .menu_contacts {
+    display: none;
+  }
+
+  .desktop-menu-list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .menu-list-item {
+    padding: 10px;
+  }
+
+  .subscribe {
+    display: none;
+  }
+}

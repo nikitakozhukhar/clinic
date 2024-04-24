@@ -1,0 +1,81 @@
+@media (max-width: 640px) {
+  .menu-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    color: #fff;
+    background-color: #08664f;
+  }
+
+  .footer-logo {
+    cursor: pointer;
+  }
+
+  .footer_menu-list {
+    display: block;
+    padding-top: 20px;
+    color: #fff;
+    list-style-type: none;
+  }
+
+  .footer_menu-list-item {
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .socials-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none
+  }
+
+  .social-list-link {
+    display: block;
+
+    width: 20px;
+    height: 20px;
+  }
+
+  .instagram {
+    position: relative;
+    z-index: 999;
+    background: url("https://i.postimg.cc/4yS8HN4h/Vector.png") no-repeat center
+        center/ 17px 17px,
+      radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+      );
+  }
+  .whatsApp {
+    position: relative;
+    z-index: 999;
+    background: url("https://i.postimg.cc/rFQX1PNV/WA.png") no-repeat center
+      center/ 17px 17px;
+  }
+  .telegram {
+    position: relative;
+    z-index: 999;
+    background: url("https://i.postimg.cc/TYwG4xwL/telegram-1.png") no-repeat center
+      center/ 17px 17px;
+  }
+}

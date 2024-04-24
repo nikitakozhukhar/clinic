@@ -1,0 +1,12 @@
+@media (max-width:640px) {
+  .post_image {
+    width: 100%;
+  }
+  
+  .post_container {
+    width: 340px;
+    padding: 20px;
+    margin: 0 auto 30px auto;
+    background-color: #F8FBFA;
+  }
+}

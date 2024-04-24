@@ -1,0 +1,17 @@
+@media (max-width: 640px) {
+  .slider-controll {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+  }
+ 
+  .SB:hover path {
+    cursor: pointer;
+    fill: green;
+  }
+  .SF:hover path {
+    cursor: pointer;
+    fill: green;
+  }
+}

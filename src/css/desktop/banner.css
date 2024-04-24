@@ -1,0 +1,105 @@
+@media (min-width: 641px) {
+  .check-up {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+  
+  .check-up_container {
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    background-color: #E2F0EF;
+    z-index: 2;
+    flex-shrink: 1;
+    flex-basis: 100%; /* занимает всю ширину контейнера */
+    max-width: 552px; /*ширина вашей картинки*/
+    height: 441px; /* высота вашего контейнера */
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  }
+  
+  .check-up_img {
+    max-width: 50%;
+    width: 692px;
+    height: 439px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    top: 0px;
+    left: -250px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%); /* задаем форму обрезки */
+  }
+
+
+  .check-up_list {
+    margin-bottom: 20px;
+    padding: 15px;
+    list-style-type: none;
+  }
+  
+  .check-up_list-item {
+    position: relative;
+    padding: 5px;
+  }
+  
+  .check-up_list-item:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: -15px;
+    top: 10px;
+    border: 1px solid #1FA181;
+    background-color: #1FA181;
+    border-radius: 50%;
+  }
+
+  .price {
+    margin-bottom: 20px;
+  }
+  .old-price {
+    margin-right: 5px;
+  }
+  
+  .new-price {
+    color: #868686;
+    text-decoration: line-through;
+  }
+  .btn-container {
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  
+  .btn {
+    width: 137px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .btn-subscribe {
+    margin-right: 5px;
+    color: white;
+    border: none;
+    background-color: #0DBC91;
+  }
+  
+  .btn-subscribe:hover {
+    background-color: #00D29F;
+  }
+  
+   .btn_more-detailed {
+    background-color: transparent;
+    border: 1px solid #0DBC91;
+     color: #0DBC91;
+  }
+  
+  .btn_more-detailed:hover {
+    background-color:  #0DBC91;
+    border: 1px solid #0DBC91;
+    color: #fff;
+  }
+}
