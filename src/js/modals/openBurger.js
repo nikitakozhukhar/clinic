@@ -10,7 +10,7 @@ export function openBurger() {
     bar1.classList.toggle('rotated');
     bar2.classList.toggle('rotated2');
     bar3.classList.toggle('hidden');
-    
+    document.body.classList.toggle('no-scroll')
   })
 }
 

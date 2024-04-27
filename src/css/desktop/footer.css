@@ -17,8 +17,9 @@
 
   .nav_container {
     display: flex;
-    /* margin-left: 10%; */
-    flex: 1 0;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
   }
 
   .logo-img-link {

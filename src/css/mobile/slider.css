@@ -6,11 +6,11 @@
     padding: 20px 0px;
   }
  
-  .SB:hover path {
+  .sliderBack:hover path {
     cursor: pointer;
     fill: green;
   }
-  .SF:hover path {
+  .sliderForward:hover path {
     cursor: pointer;
     fill: green;
   }

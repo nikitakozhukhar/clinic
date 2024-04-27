@@ -33,13 +33,13 @@
 
   .rotated {
     position: relative;
-    top:7px;
+    top:10px;
     transform: rotate(45deg);
   }
   
   .rotated2 {
     position: relative;
-    top:7px;
+    top: 3px;
     transform: rotate(-45deg);
   }
 

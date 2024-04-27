@@ -15,10 +15,7 @@ export function createBanner() {
   
   bannerSection.appendChild(createBannerContentMan());
   bannerSection.appendChild(img);
-  // bannerSection.appendChild(createSlider());
   
   return bannerSection
 };
 
-// const bannerSection = createBanner();
-// document.body.appendChild(bannerSection)

@@ -1,0 +1,78 @@
+@media (max-width: 640px) {
+  .form-popup {
+    display: none;
+  }
+  
+  .wall-effect {
+    position: absolute;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0dbc9033;
+  }
+
+  .form-popup {
+   
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .open {
+    display: block;
+  }
+  
+  .form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fefefe;
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+  }
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .btn {
+    width: 137px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-send {
+    margin-bottom: 5px;
+    color: white;
+    border: none;
+    background-color: #0DBC91;
+  }
+  
+  .cancel {
+    margin-right: 5px;
+    color: white;
+    border: none;
+    background-color: #0DBC91;
+  }
+  
+  .btn-send:hover {
+    background-color: #00D29F;
+  }
+  
+  .cancel:hover {
+    background-color: #00D29F;
+  }
+  
+
+  
+}

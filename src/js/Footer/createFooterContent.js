@@ -63,12 +63,14 @@ export function createFooterContent() {
   footerContainer.appendChild(navContainer);
 
   navContainer.appendChild(footerLogo());
-  navContainer.appendChild(footerNav)
+  navContainer.appendChild(footerNav);
+  socials.appendChild(socialsList);
+  navContainer.appendChild(socials);
 
   footerNav.appendChild(footerMenuList);
   
-  socials.appendChild(socialsList);
-  footerContainer.appendChild(socials)
+  
+  // footerContainer.appendChild(socials)
 
   return footerContainer
 }

@@ -8,6 +8,23 @@
   </head>
 
   <body>
+    <div class="wall-effect">
+      <div id="contactForm" class="form-popup">
+        <form action="send_email.php" method="post" class="form-container">
+          <h2>Contact Us</h2>
+    
+          <label for="email"><b>Email</b></label>
+          <input class="email" type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="message"><b>Message</b></label>
+          <textarea class="text" placeholder="Enter Message" name="message" required></textarea>
+    
+          <button type="submit" class="btn btn-send">Send</button>
+          <button type="button" class="btn cancel" id="closeFormBtn">Close</button>
+        </form>
+      </div>
+
+    </div>
     <!-- https://codelab.pro/prostoe-burger-menyu-na-chistom-javascript/?ysclid=lv4vbh82dx537897063 -->
     <!-- <header class="header">
   <div class="header_container">

@@ -15,6 +15,8 @@ import './css/desktop/slider.css';
 import './css/mobile/footer.css';
 import './css/desktop/footer.css';
 
+import './css/mobile/popup.css';
+import './css/desktop/popup.css';
 
 import './js/Header/createHeader';
 
@@ -39,6 +41,7 @@ import './js/Main/banner/createBanner';
 import './js/Main/banner/createBannerContentMan';
 
 import './js/Main/slider/createSlider';
+import './js/Main/slider/controllSlider';
 
 import './js/Footer/createFooter';
 
@@ -46,4 +49,6 @@ import './js/Footer/footerLogo'
 
 import './js/Footer/createFooterContent';
 
-import './js/modals/openBurger'
+import './js/modals/openBurger';
+
+import './js/modals/popup/createPopup';
