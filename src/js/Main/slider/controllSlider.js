@@ -12,7 +12,7 @@ export function controllSlider() {
     'https://i.postimg.cc/W1Gd0KKn/Doctor.webp',
   ]
   sliderCurrent.textContent = `${current + 1} / ${imgScr.length}`;
-  
+
   sliderBack.addEventListener('click', () => {
     checkUpImg.src = imgScr[0]
     current = imgScr.indexOf('https://i.postimg.cc/7hZFqwSc/doctor-working-table-1.png') + 1;
@@ -24,7 +24,6 @@ export function controllSlider() {
     current = imgScr.indexOf('https://i.postimg.cc/W1Gd0KKn/Doctor.webp') + 1;
     sliderCurrent.textContent = `${current} / ${imgScr.length}`;
   })
-
 
   return
 }

@@ -3,8 +3,6 @@ export function createLogo () {
   
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 
-  
-
   svg.setAttribute('width', '62');
   svg.setAttribute('height', '19');
   svg.setAttribute("viewBox", "0 0 62 19");

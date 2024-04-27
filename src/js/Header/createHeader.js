@@ -27,14 +27,10 @@ export function createHeader() {
   
   headerContainer.appendChild(createButtonSubscribe());
 
-  
-
   header.appendChild(headerContainer); 
   header.appendChild(headerNav);
   
-  
   return header
-
 };
 
 const header = createHeader();

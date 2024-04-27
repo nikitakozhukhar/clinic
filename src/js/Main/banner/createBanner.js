@@ -1,6 +1,5 @@
 import { createBannerContentMan } from "./createBannerContentMan";
 
-import { createSlider } from "../slider/createSlider";
 
 export function createBanner() {
   const bannerSection = document.createElement('section');

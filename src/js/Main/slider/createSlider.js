@@ -33,12 +33,9 @@ export function createSlider() {
   pathRight.setAttribute("fill", fillColor);
   sliderForward.appendChild(pathRight);
 
-  sliderCurrent.textContent = '1/4';
-
   sliderContainer.appendChild(sliderBack);
   sliderContainer.appendChild(sliderCurrent);
   sliderContainer.appendChild(sliderForward);
-
 
   return sliderContainer
 }

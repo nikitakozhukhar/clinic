@@ -1,4 +1,3 @@
-import { createLogo } from '../Header/logo/createLogo'
 import { footerLogo } from './footerLogo';
 
 export function createFooterContent() {

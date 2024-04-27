@@ -19,7 +19,6 @@ export function createBannerContentMan() {
     'Глобулин, связывающий половые гормоны',
   ];
 
-
   // Добавление текста
 
   checkUpTitle.textContent = 'CHECK-UP';
@@ -62,15 +61,9 @@ export function createBannerContentMan() {
   buttonContainer.appendChild(btnSubscribe);
   buttonContainer.appendChild(btnMoreDetailed);
 
-  // sliderContainer.appendChild(sliderBack);//
-  // sliderContainer.appendChild(sliderCurrent);//
-  // sliderContainer.appendChild(sliderForward);//
-
   chechUpContainer.appendChild(checkUpTitle);
   chechUpContainer.appendChild(checkUpList);
   chechUpContainer.appendChild(productPrice);
-  // chechUpContainer.appendChild(sliderContainer);//
-   
 
   return chechUpContainer
 }

@@ -22,7 +22,6 @@ export function createPopup() {
     document.body.classList.toggle('no-scroll')
   });
 
-
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const formData = new FormData(form);
@@ -48,7 +47,6 @@ export function createPopup() {
     });
 
   })
-
   
 }
 

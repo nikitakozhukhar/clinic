@@ -8,7 +8,6 @@ export function createPostItem() {
   img.src = 'https://i.postimg.cc/htrBBQqM/Rectangle-9.png';
   img.alt = 'изображение приемной в клинике';
   
-  
   contentPost.classList.add('content_post');
   img.classList.add('post_image');
   postContainer.classList.add('post_container');

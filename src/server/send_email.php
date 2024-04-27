@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $data['message'];
 
     // Email, на который будут отправлены сообщения
-    $to = 'nikitakx9@gmail.com.ru';
+    $to = 'rbru-metrika@yandex.ru';
 
     // Тема письма
     $subject = 'Новое сообщение с веб-формы';
